@@ -1,0 +1,99 @@
+.header {
+    margin-bottom: var(--space-xl);
+    text-align: center;
+}
+
+.label {
+    color: var(--color-gold-500);
+    font-family: var(--font-secondary);
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    margin-bottom: var(--space-sm);
+    display: block;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: var(--space-sm);
+    color: var(--color-white);
+}
+
+.subtitle {
+    color: var(--color-text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-lg);
+}
+
+.card {
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--color-gold-500);
+}
+
+.imagePlaceholder {
+    height: 300px;
+    background: linear-gradient(to bottom, #112240, #0a192f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    color: var(--color-gold-600);
+}
+
+.info {
+    padding: var(--space-md);
+}
+
+.name {
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+    color: var(--color-white);
+}
+
+.role {
+    display: block;
+    font-family: var(--font-secondary);
+    font-size: 0.85rem;
+    color: var(--color-gold-500);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--space-sm);
+}
+
+.divider {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: var(--space-sm) 0;
+    width: 50px;
+}
+
+.practice {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--color-text-main);
+}
+
+.expertise {
+    list-style: none;
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+}
+
+.education {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+    opacity: 0.6;
+}

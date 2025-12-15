@@ -1,0 +1,87 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 1.5rem 0;
+    transition: all 0.4s var(--ease-premium);
+}
+
+.scrolled {
+    padding: 1rem 0;
+    background: rgba(10, 25, 47, 0.85);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    color: var(--color-gold-300);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+
+.legal {
+    color: var(--color-gold-500);
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+}
+
+.link {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-text-main);
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    position: relative;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.link:hover {
+    color: var(--color-gold-300);
+}
+
+.activeLine {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--color-gold-500);
+}
+
+.contactBtn {
+    background: transparent;
+    border: 1px solid var(--color-gold-500);
+    color: var(--color-gold-500);
+    padding: 0.6rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contactBtn:hover {
+    background: rgba(201, 160, 80, 0.1);
+    color: var(--color-white);
+    box-shadow: 0 0 20px rgba(201, 160, 80, 0.2);
+}

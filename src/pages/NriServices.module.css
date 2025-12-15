@@ -1,0 +1,56 @@
+.nriPage {
+    background-color: var(--color-navy-950);
+    min-height: 100vh;
+}
+
+.hero {
+    position: relative;
+    padding: 12rem 0 6rem;
+    overflow: hidden;
+}
+
+.mapOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapSvg {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+}
+
+.label {
+    color: var(--color-gold-500);
+    font-family: var(--font-accent);
+    letter-spacing: 0.2em;
+    display: block;
+    margin-bottom: var(--space-sm);
+    text-transform: uppercase;
+}
+
+.title {
+    color: var(--color-text-main);
+    margin-bottom: var(--space-md);
+    max-width: 800px;
+}
+
+.lead {
+    font-size: 1.3rem;
+    color: var(--color-text-muted);
+    max-width: 600px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-md);
+}

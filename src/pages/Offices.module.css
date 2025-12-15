@@ -1,0 +1,66 @@
+.header {
+    margin-bottom: var(--space-xl);
+    text-align: center;
+}
+
+.label {
+    color: var(--color-gold-500);
+    font-family: var(--font-secondary);
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    margin-bottom: var(--space-sm);
+    display: block;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: var(--space-sm);
+    color: var(--color-white);
+}
+
+.subtitle {
+    color: var(--color-text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-lg);
+}
+
+.card {
+    padding: var(--space-md);
+}
+
+.locationTag {
+    font-size: 0.7rem;
+    font-family: var(--font-secondary);
+    letter-spacing: 0.15em;
+    color: var(--color-gold-500);
+    margin-bottom: var(--space-sm);
+    font-weight: 700;
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    margin-bottom: var(--space-sm);
+    color: var(--color-white);
+}
+
+.address {
+    font-size: 1.1rem;
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-md);
+}
+
+.contact {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: var(--space-sm);
+    color: var(--color-text-main);
+}
+
+.contact p {
+    margin-bottom: 0.5rem;
+}
